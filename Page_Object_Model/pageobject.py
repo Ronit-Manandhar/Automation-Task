@@ -33,7 +33,6 @@ class Saucedemo:
     def continueshopping(self):
         self.driver.find_element_by_id(self.button_continueshopping_id).click()
 
-
     def set_inputforcheckout(self, firstname, lastname, postalcode):
         self.driver.find_element_by_id(self.textbox_firstname_id).click()
         self.driver.find_element_by_id(self.textbox_firstname_id).clear()
